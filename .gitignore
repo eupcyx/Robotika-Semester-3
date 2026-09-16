@@ -1,4 +1,12 @@
+# Exclude Colcon build output
 build/
 install/
 log/
-__pycache__/
+**/build/
+**/install/
+**/log/
+
+# Exclude Python compiled files
+**/__pycache__/
+*.pyc
+*.egg-info/
