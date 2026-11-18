@@ -23,6 +23,29 @@ RUN groupadd -g ${GID} ${USERNAME} 2>/dev/null || true && \
     echo "[ -f /ws/install/setup.bash ] && source /ws/install/setup.bash" \
     >> /home/${USERNAME}/.bashrc
 
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    ros-humble-gazebo-ros-pkgs \
+    ros-humble-turtlebot3-msgs \
+    ros-humble-turtlebot3-simulations \
+    ros-humble-turtlebot3-cartographer \
+    ros-humble-turtlebot3-teleop \
+    ros-humble-cartographer \
+    ros-humble-cartographer-ros \
+    ros-humble-nav2-map-server \
+    ros-humble-tf2-tools \
+    mesa-utils \
+    && rm -rf /var/lib/apt/lists/*
+
+ENV TURTLEBOT3_MODEL=burger
+ENV GAZEBO_MODEL_PATH=/usr/share/gazebo-11/models:/opt/ros/humble/share/turtlebot3_gazebo/models
+ENV GAZEBO_MODEL_DATABASE_URI=""
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    ros-humble-navigation2 \
+    ros-humble-nav2-bringup \
+    ros-humble-turtlebot3-navigation2 \
+    && rm -rf /var/lib/apt/lists/*
+
 COPY docker/entrypoint.sh /entrypoint.sh
 
 RUN chmod +x /entrypoint.sh

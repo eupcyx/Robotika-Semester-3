@@ -1,0 +1,1026 @@
+
+   NETWORK CONFIGURATION
+inet         : 127.0.0.1
+inet4        : ['127.0.0.1']
+inet6        : ['::1']
+netmask      : 255.0.0.0
+device       : lo
+flags        : 73<LOOPBACK,UP,RUNNING>
+mtu          : 65536
+inet         : 192.168.10.179
+inet4        : ['192.168.10.179']
+ether        : 9c:67:d6:81:74:50
+inet6        : ['fe80::5f51:42f0:1acc:bd36%wlo1']
+netmask      : 255.255.255.0
+device       : wlo1
+flags        : 4163<RUNNING,UP,MULTICAST,BROADCAST>
+mtu          : 1500
+broadcast    : 192.168.10.255
+inet         : 172.17.0.1
+inet4        : ['172.17.0.1']
+ether        : 5a:50:7a:51:94:1e
+inet6        : ['fe80::5850:7aff:fe51:941e%docker0']
+netmask      : 255.255.0.0
+device       : docker0
+flags        : 4099<UP,MULTICAST,BROADCAST>
+mtu          : 1500
+broadcast    : 172.17.255.255
+ether        : 34:5a:60:87:bd:80
+device       : enp3s0
+flags        : 4099<UP,MULTICAST,BROADCAST>
+mtu          : 1500
+
+   PACKAGE VERSIONS
+my_first_robot_package                    : latest=, local=0.0.0
+lab_comm                                  : latest=, local=0.0.0
+ament_cmake_export_targets                : latest=1.3.15, local=1.3.14
+ament_index_python                        : latest=1.4.1, local=1.4.1
+lifecycle_msgs                            : latest=1.2.3, local=1.2.3
+ament_cmake_export_link_flags             : latest=1.3.15, local=1.3.14
+launch_testing                            : latest=1.0.16, local=1.0.14
+action_msgs                               : latest=1.2.3, local=1.2.3
+ament_package                             : latest=0.14.2, local=0.14.2
+ament_cmake_version                       : latest=1.3.15, local=1.3.14
+ament_cmake_uncrustify                    : latest=0.12.15, local=0.12.15
+console_bridge_vendor                     : latest=1.4.1, local=1.4.1
+visualization_msgs                        : latest=4.9.2, local=4.9.2
+rosidl_typesupport_c                      : latest=2.0.2, local=2.0.2
+ament_xmllint                             : latest=0.12.15, local=0.12.15
+uncrustify_vendor                         : latest=2.0.2, local=2.0.2
+sros2                                     : latest=0.10.9, local=0.10.9
+python_cmake_module                       : latest=0.10.0, local=0.10.0
+ros2run                                   : latest=0.18.21, local=0.18.19
+ament_cmake_gmock                         : latest=1.3.15, local=1.3.14
+ament_index_cpp                           : latest=1.4.1, local=1.4.1
+ros2cli                                   : latest=0.18.21, local=0.18.19
+rosidl_typesupport_fastrtps_cpp           : latest=2.2.4, local=2.2.4
+ament_cmake_export_definitions            : latest=1.3.15, local=1.3.14
+rmw_fastrtps_shared_cpp                   : latest=6.2.10, local=6.2.10
+ament_cmake_core                          : latest=1.3.15, local=1.3.14
+rclpy                                     : latest=3.3.22, local=3.3.21
+ros2doctor                                : latest=0.18.21, local=0.18.19
+ament_cmake_ros                           : latest=0.10.1, local=0.10.0
+rosidl_typesupport_introspection_cpp      : latest=3.1.9, local=3.1.9
+launch_xml                                : latest=1.0.16, local=1.0.14
+ament_copyright                           : latest=0.12.15, local=0.12.15
+ros2interface                             : latest=0.18.21, local=0.18.19
+rmw                                       : latest=6.1.4, local=6.1.3
+ament_pep257                              : latest=0.12.15, local=0.12.15
+rclcpp_components                         : latest=16.0.22, local=16.0.19
+ament_cmake                               : latest=1.3.15, local=1.3.14
+ament_cmake_include_directories           : latest=1.3.15, local=1.3.14
+rcpputils                                 : latest=2.4.7, local=2.4.7
+ament_cmake_cpplint                       : latest=0.12.15, local=0.12.15
+ros2node                                  : latest=0.18.21, local=0.18.19
+ament_cmake_gtest                         : latest=1.3.15, local=1.3.14
+ament_cmake_export_libraries              : latest=1.3.15, local=1.3.14
+ament_cmake_libraries                     : latest=1.3.15, local=1.3.14
+rmw_implementation                        : latest=2.8.5, local=2.8.5
+statistics_msgs                           : latest=1.2.3, local=1.2.3
+rcl_logging_spdlog                        : latest=2.3.2, local=2.3.2
+ament_cmake_lint_cmake                    : latest=0.12.15, local=0.12.15
+libyaml_vendor                            : latest=1.2.2, local=1.2.2
+rclcpp                                    : latest=16.0.22, local=16.0.19
+rosidl_typesupport_introspection_c        : latest=3.1.9, local=3.1.9
+trajectory_msgs                           : latest=4.9.2, local=4.9.2
+rosidl_generator_cpp                      : latest=3.1.9, local=3.1.9
+domain_coordinator                        : latest=0.10.1, local=0.10.0
+builtin_interfaces                        : latest=1.2.3, local=1.2.3
+launch_testing_ament_cmake                : latest=1.0.16, local=1.0.14
+ament_cmake_cppcheck                      : latest=0.12.15, local=0.12.15
+rosidl_generator_c                        : latest=3.1.9, local=3.1.9
+ament_lint                                : latest=0.12.15, local=0.12.15
+rosidl_runtime_py                         : latest=0.9.3, local=0.9.3
+ament_lint_common                         : latest=0.12.15, local=0.12.15
+rmw_dds_common                            : latest=1.6.0, local=1.6.0
+launch_ros                                : latest=0.19.14, local=0.19.14
+rosidl_default_generators                 : latest=1.2.1, local=1.2.1
+ros2topic                                 : latest=0.18.21, local=0.18.19
+rcl_logging_interface                     : latest=2.3.2, local=2.3.2
+class_loader                              : latest=2.2.0, local=2.2.0
+ros2plugin                                : latest=5.1.5, local=5.1.4
+ament_cmake_export_interfaces             : latest=1.3.15, local=1.3.14
+ament_cmake_pytest                        : latest=1.3.15, local=1.3.14
+rosidl_typesupport_fastrtps_c             : latest=2.2.4, local=2.2.4
+pluginlib                                 : latest=5.1.5, local=5.1.4
+common_interfaces                         : latest=4.9.2, local=4.9.2
+ros2param                                 : latest=0.18.21, local=0.18.19
+ament_cmake_auto                          : latest=1.3.15, local=1.3.14
+ament_cmake_pep257                        : latest=0.12.15, local=0.12.15
+launch_yaml                               : latest=1.0.16, local=1.0.14
+ament_cmake_gen_version_h                 : latest=1.3.15, local=1.3.14
+ros2component                             : latest=0.18.21, local=0.18.19
+rmw_fastrtps_cpp                          : latest=6.2.10, local=6.2.10
+rcl_lifecycle                             : latest=5.3.13, local=5.3.13
+rcutils                                   : latest=5.1.11, local=5.1.9
+rosidl_generator_py                       : latest=0.14.6, local=0.14.6
+ros2lifecycle                             : latest=0.18.21, local=0.18.19
+launch_testing_ros                        : latest=0.19.14, local=0.19.14
+rpyutils                                  : latest=0.2.2, local=0.2.2
+osrf_pycommon                             : latest=2.1.6, local=2.1.6
+rosidl_runtime_c                          : latest=3.1.9, local=3.1.9
+ament_lint_cmake                          : latest=0.12.15, local=0.12.15
+actionlib_msgs                            : latest=4.9.2, local=4.9.2
+rcl_yaml_param_parser                     : latest=5.3.13, local=5.3.13
+ament_cmake_test                          : latest=1.3.15, local=1.3.14
+ros_environment                           : latest=3.2.2, local=3.2.2
+std_msgs                                  : latest=4.9.2, local=4.9.2
+ament_cmake_export_include_directories    : latest=1.3.15, local=1.3.14
+rosidl_cmake                              : latest=3.1.9, local=3.1.9
+ament_cpplint                             : latest=0.12.15, local=0.12.15
+rosgraph_msgs                             : latest=1.2.3, local=1.2.3
+rosidl_generator_rs                       : latest=0.5.0, local=0.4.12
+rcl_action                                : latest=5.3.13, local=5.3.13
+rclcpp_action                             : latest=16.0.22, local=16.0.19
+libstatistics_collector                   : latest=1.3.4, local=1.3.4
+geometry_msgs                             : latest=4.9.2, local=4.9.2
+ament_cmake_export_dependencies           : latest=1.3.15, local=1.3.14
+ament_lint_auto                           : latest=0.12.15, local=0.12.15
+nav_msgs                                  : latest=4.9.2, local=4.9.2
+std_srvs                                  : latest=4.9.2, local=4.9.2
+ros2action                                : latest=0.18.21, local=0.18.19
+rcl                                       : latest=5.3.13, local=5.3.13
+sensor_msgs                               : latest=4.9.2, local=4.9.2
+rmw_implementation_cmake                  : latest=6.1.4, local=6.1.3
+ament_cppcheck                            : latest=0.12.15, local=0.12.15
+fastrtps_cmake_module                     : latest=2.2.4, local=2.2.4
+ament_flake8                              : latest=0.12.15, local=0.12.15
+rosidl_typesupport_interface              : latest=3.1.9, local=3.1.9
+shape_msgs                                : latest=4.9.2, local=4.9.2
+rcl_interfaces                            : latest=1.2.3, local=1.2.3
+ros_workspace                             : latest=1.0.2, local=1.0.2
+sros2_cmake                               : latest=0.10.9, local=0.10.9
+ros2pkg                                   : latest=0.18.21, local=0.18.19
+ros2cli_common_extensions                 : latest=0.1.2, local=0.1.2
+unique_identifier_msgs                    : latest=2.2.1, local=2.2.1
+ament_cmake_copyright                     : latest=0.12.15, local=0.12.15
+ros2multicast                             : latest=0.18.21, local=0.18.19
+tracetools                                : latest=4.1.2, local=4.1.2
+rosidl_parser                             : latest=3.1.9, local=3.1.9
+composition_interfaces                    : latest=1.2.3, local=1.2.3
+ament_cmake_target_dependencies           : latest=1.3.15, local=1.3.14
+diagnostic_msgs                           : latest=4.9.2, local=4.9.2
+rclcpp_lifecycle                          : latest=16.0.22, local=16.0.19
+rosidl_default_runtime                    : latest=1.2.1, local=1.2.1
+launch                                    : latest=1.0.16, local=1.0.14
+ros2launch                                : latest=0.19.14, local=0.19.14
+rosidl_typesupport_cpp                    : latest=2.0.2, local=2.0.2
+spdlog_vendor                             : latest=1.3.1, local=1.3.1
+tinyxml2_vendor                           : latest=0.7.7, local=0.7.7
+ament_cmake_xmllint                       : latest=0.12.15, local=0.12.15
+ament_cmake_python                        : latest=1.3.15, local=1.3.14
+stereo_msgs                               : latest=4.9.2, local=4.9.2
+ament_uncrustify                          : latest=0.12.15, local=0.12.15
+rosidl_adapter                            : latest=3.1.9, local=3.1.9
+ros2service                               : latest=0.18.21, local=0.18.19
+rosidl_runtime_cpp                        : latest=3.1.9, local=3.1.9
+ros_core                                  : latest=0.10.0, local=0.10.0
+rosidl_cli                                : latest=3.1.9, local=3.1.9
+ament_cmake_flake8                        : latest=0.12.15, local=0.12.15
+joint_trajectory_controller               : latest=2.54.1, local=2.54.1
+imu_sensor_broadcaster                    : latest=2.54.1, local=2.54.1
+turtlebot3_teleop                         : latest=2.3.6, local=2.3.6
+tricycle_controller                       : latest=2.54.1, local=2.54.1
+angles                                    : latest=1.15.0, local=1.15.0
+control_msgs                              : latest=4.9.0, local=4.9.0
+cartographer_ros_msgs                     : latest=2.0.9002, local=2.0.9002
+gazebo_msgs                               : latest=3.9.0, local=3.9.0
+tf2_tools                                 : latest=0.25.24, local=0.25.24
+nav2_map_server                           : latest=1.1.20, local=1.1.20
+turtlebot3_cartographer                   : latest=2.3.6, local=2.3.6
+gazebo_ros_pkgs                           : latest=3.9.0, local=3.9.0
+ackermann_msgs                            : latest=2.0.2, local=2.0.2
+tcb_span                                  : latest=1.3.2, local=1.3.2
+diff_drive_controller                     : latest=2.54.1, local=2.54.1
+position_controllers                      : latest=2.54.1, local=2.54.1
+control_toolbox                           : latest=3.7.1, local=3.7.1
+steering_controllers_library              : latest=2.54.1, local=2.54.1
+admittance_controller                     : latest=2.54.1, local=2.54.1
+pcl_msgs                                  : latest=1.0.0, local=1.0.0
+cv_bridge                                 : latest=3.2.1, local=3.2.1
+controller_manager_msgs                   : latest=2.54.3, local=2.54.3
+range_sensor_broadcaster                  : latest=2.54.1, local=2.54.1
+turtlebot3_fake_node                      : latest=2.3.8, local=2.3.8
+kinematics_interface                      : latest=0.4.2, local=0.4.2
+ros2_controllers                          : latest=2.54.1, local=2.54.1
+pid_controller                            : latest=2.54.1, local=2.54.1
+joint_limits                              : latest=2.54.3, local=2.54.3
+joint_state_broadcaster                   : latest=2.54.1, local=2.54.1
+gpio_controllers                          : latest=2.54.1, local=2.54.1
+velocity_controllers                      : latest=2.54.1, local=2.54.1
+transmission_interface                    : latest=2.54.3, local=2.54.3
+tl_expected                               : latest=1.3.2, local=1.3.2
+tricycle_steering_controller              : latest=2.54.1, local=2.54.1
+ros2_control                              : latest=2.54.3, local=2.54.3
+filters                                   : latest=2.2.2, local=2.2.2
+controller_manager                        : latest=2.54.3, local=2.54.3
+ros2_control_test_assets                  : latest=2.54.3, local=2.54.3
+mecanum_drive_controller                  : latest=2.54.1, local=2.54.1
+realtime_tools                            : latest=2.15.1, local=2.15.1
+turtlebot3_simulations                    : latest=2.3.8, local=2.3.8
+forward_command_controller                : latest=2.54.1, local=2.54.1
+turtlebot3_msgs                           : latest=2.4.0, local=2.4.0
+ackermann_steering_controller             : latest=2.54.1, local=2.54.1
+generate_parameter_library_py             : latest=0.7.7, local=0.7.7
+generate_parameter_library                : latest=0.7.7, local=0.7.7
+nav2_util                                 : latest=1.1.20, local=1.1.20
+gazebo_ros                                : latest=3.9.0, local=3.9.0
+pose_broadcaster                          : latest=2.54.1, local=2.54.1
+effort_controllers                        : latest=2.54.1, local=2.54.1
+controller_interface                      : latest=2.54.3, local=2.54.3
+bond                                      : latest=4.1.4, local=4.1.4
+turtlebot3_manipulation_gazebo            : latest=2.3.8, local=2.3.8
+pcl_conversions                           : latest=2.4.5, local=2.4.5
+smclib                                    : latest=4.1.4, local=4.1.4
+camera_info_manager                       : latest=3.1.13, local=3.1.13
+bicycle_steering_controller               : latest=2.54.1, local=2.54.1
+gripper_controllers                       : latest=2.54.1, local=2.54.1
+parameter_traits                          : latest=0.7.7, local=0.7.7
+bondcpp                                   : latest=4.1.4, local=4.1.4
+ros2controlcli                            : latest=2.54.3, local=2.54.3
+gazebo_plugins                            : latest=3.9.0, local=3.9.0
+nav2_msgs                                 : latest=1.1.20, local=1.1.20
+cartographer_ros                          : latest=2.0.9002, local=2.0.9002
+hardware_interface                        : latest=2.54.3, local=2.54.3
+force_torque_sensor_broadcaster           : latest=2.54.1, local=2.54.1
+nav2_common                               : latest=1.1.20, local=1.1.20
+camera_calibration_parsers                : latest=3.1.13, local=3.1.13
+xacro                                     : latest=2.1.1, local=2.1.1
+gazebo_dev                                : latest=3.9.0, local=3.9.0
+turtlebot3_gazebo                         : latest=2.3.8, local=2.3.8
+rviz2                                     : latest=11.2.29, local=11.2.28
+image_transport                           : latest=3.1.13, local=3.1.13
+rqt_gui_py                                : latest=1.1.10, local=1.1.9
+tango_icons_vendor                        : latest=0.1.1, local=0.1.1
+rviz_assimp_vendor                        : latest=11.2.29, local=11.2.28
+rqt_gui                                   : latest=1.1.10, local=1.1.9
+laser_geometry                            : latest=2.4.1, local=2.4.1
+qt_dotgraph                               : latest=2.2.5, local=2.2.5
+resource_retriever                        : latest=3.1.3, local=3.1.3
+python_qt_binding                         : latest=1.1.3, local=1.1.3
+map_msgs                                  : latest=2.1.0, local=2.1.0
+libcurl_vendor                            : latest=3.1.3, local=3.1.3
+rviz_rendering                            : latest=11.2.29, local=11.2.28
+rqt_graph                                 : latest=1.3.2, local=1.3.2
+demo_nodes_py                             : latest=0.20.10, local=0.20.9
+rviz_default_plugins                      : latest=11.2.29, local=11.2.28
+rviz_common                               : latest=11.2.29, local=11.2.28
+demo_nodes_cpp                            : latest=0.20.10, local=0.20.9
+rviz_ogre_vendor                          : latest=11.2.29, local=11.2.28
+example_interfaces                        : latest=0.9.3, local=0.9.3
+interactive_markers                       : latest=2.3.2, local=2.3.2
+qt_gui                                    : latest=2.2.5, local=2.2.5
+rosbag2_storage                           : latest=0.15.17, local=0.15.16
+urdf_parser_plugin                        : latest=2.6.1, local=2.6.1
+shared_queues_vendor                      : latest=0.15.17, local=0.15.16
+tinyxml_vendor                            : latest=0.8.3, local=0.8.3
+ros_base                                  : latest=0.10.0, local=0.10.0
+robot_state_publisher                     : latest=3.0.3, local=3.0.3
+tf2_ros_py                                : latest=0.25.24, local=0.25.22
+sensor_msgs_py                            : latest=4.9.2, local=4.9.2
+tf2_eigen                                 : latest=0.25.24, local=0.25.22
+geometry2                                 : latest=0.25.24, local=0.25.22
+tf2_eigen_kdl                             : latest=0.25.24, local=0.25.22
+keyboard_handler                          : latest=0.0.5, local=0.0.5
+rosbag2_py                                : latest=0.15.17, local=0.15.16
+tf2_msgs                                  : latest=0.25.24, local=0.25.22
+message_filters                           : latest=4.3.20, local=4.3.19
+kdl_parser                                : latest=2.6.4, local=2.6.4
+rosbag2_cpp                               : latest=0.15.17, local=0.15.16
+tf2_py                                    : latest=0.25.24, local=0.25.22
+eigen3_cmake_module                       : latest=0.1.1, local=0.1.1
+rosbag2_storage_default_plugins           : latest=0.15.17, local=0.15.16
+pybind11_vendor                           : latest=2.4.2, local=2.4.2
+rosbag2                                   : latest=0.15.17, local=0.15.16
+tf2_sensor_msgs                           : latest=0.25.24, local=0.25.22
+rosbag2_interfaces                        : latest=0.15.17, local=0.15.16
+zstd_vendor                               : latest=0.15.17, local=0.15.16
+rosbag2_compression_zstd                  : latest=0.15.17, local=0.15.16
+sqlite3_vendor                            : latest=0.15.17, local=0.15.16
+tf2_kdl                                   : latest=0.25.24, local=0.25.22
+ros2bag                                   : latest=0.15.17, local=0.15.16
+urdf                                      : latest=2.6.1, local=2.6.1
+rosbag2_transport                         : latest=0.15.17, local=0.15.16
+python_orocos_kdl_vendor                  : latest=0.2.5, local=0.2.5
+tf2_bullet                                : latest=0.25.24, local=0.25.22
+tf2_geometry_msgs                         : latest=0.25.24, local=0.25.22
+orocos_kdl_vendor                         : latest=0.2.5, local=0.2.5
+rosbag2_compression                       : latest=0.15.17, local=0.15.16
+tf2                                       : latest=0.25.24, local=0.25.22
+tf2_ros                                   : latest=0.25.24, local=0.25.22
+yaml_cpp_vendor                           : latest=8.0.2, local=8.0.2
+
+   PLATFORM INFORMATION
+system           : Linux
+platform info    : Linux-6.8.0-138-generic-x86_64-with-glibc2.35
+release          : 6.8.0-138-generic
+processor        : x86_64
+
+   QOS COMPATIBILITY LIST
+topic [type]            : /clock [rosgraph_msgs/msg/Clock]
+publisher node          : gazebo
+subscriber node         : gazebo
+compatibility status    : OK
+topic [type]            : /clock [rosgraph_msgs/msg/Clock]
+publisher node          : gazebo
+subscriber node         : turtlebot3_imu
+compatibility status    : OK
+topic [type]            : /clock [rosgraph_msgs/msg/Clock]
+publisher node          : gazebo
+subscriber node         : turtlebot3_laserscan
+compatibility status    : OK
+topic [type]            : /clock [rosgraph_msgs/msg/Clock]
+publisher node          : gazebo
+subscriber node         : turtlebot3_diff_drive
+compatibility status    : OK
+topic [type]            : /clock [rosgraph_msgs/msg/Clock]
+publisher node          : gazebo
+subscriber node         : turtlebot3_joint_state
+compatibility status    : OK
+topic [type]            : /clock [rosgraph_msgs/msg/Clock]
+publisher node          : gazebo
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /clock [rosgraph_msgs/msg/Clock]
+publisher node          : gazebo
+subscriber node         : cartographer_node
+compatibility status    : OK
+topic [type]            : /clock [rosgraph_msgs/msg/Clock]
+publisher node          : gazebo
+subscriber node         : transform_listener_impl_5c55ee4503b0
+compatibility status    : OK
+topic [type]            : /clock [rosgraph_msgs/msg/Clock]
+publisher node          : gazebo
+subscriber node         : cartographer_occupancy_grid_node
+compatibility status    : OK
+topic [type]            : /clock [rosgraph_msgs/msg/Clock]
+publisher node          : gazebo
+subscriber node         : rviz2
+compatibility status    : OK
+topic [type]            : /clock [rosgraph_msgs/msg/Clock]
+publisher node          : gazebo
+subscriber node         : transform_listener_impl_6320c5ab91f0
+compatibility status    : OK
+topic [type]            : /cmd_vel [geometry_msgs/msg/Twist]
+publisher node          : teleop_keyboard
+subscriber node         : turtlebot3_diff_drive
+compatibility status    : OK
+topic [type]            : /joint_states [sensor_msgs/msg/JointState]
+publisher node          : turtlebot3_joint_state
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /map [nav_msgs/msg/OccupancyGrid]
+publisher node          : cartographer_occupancy_grid_node
+subscriber node         : rviz2
+compatibility status    : OK
+topic [type]            : /odom [nav_msgs/msg/Odometry]
+publisher node          : turtlebot3_diff_drive
+subscriber node         : cartographer_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : teleop_keyboard
+subscriber node         : gazebo
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : teleop_keyboard
+subscriber node         : turtlebot3_imu
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : teleop_keyboard
+subscriber node         : turtlebot3_laserscan
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : teleop_keyboard
+subscriber node         : turtlebot3_diff_drive
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : teleop_keyboard
+subscriber node         : turtlebot3_joint_state
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : teleop_keyboard
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : teleop_keyboard
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : teleop_keyboard
+subscriber node         : cartographer_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : teleop_keyboard
+subscriber node         : transform_listener_impl_5c55ee4503b0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : teleop_keyboard
+subscriber node         : cartographer_occupancy_grid_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : teleop_keyboard
+subscriber node         : rviz2
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : teleop_keyboard
+subscriber node         : transform_listener_impl_6320c5ab91f0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : gazebo
+subscriber node         : gazebo
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : gazebo
+subscriber node         : turtlebot3_imu
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : gazebo
+subscriber node         : turtlebot3_laserscan
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : gazebo
+subscriber node         : turtlebot3_diff_drive
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : gazebo
+subscriber node         : turtlebot3_joint_state
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : gazebo
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : gazebo
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : gazebo
+subscriber node         : cartographer_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : gazebo
+subscriber node         : transform_listener_impl_5c55ee4503b0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : gazebo
+subscriber node         : cartographer_occupancy_grid_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : gazebo
+subscriber node         : rviz2
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : gazebo
+subscriber node         : transform_listener_impl_6320c5ab91f0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_imu
+subscriber node         : gazebo
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_imu
+subscriber node         : turtlebot3_imu
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_imu
+subscriber node         : turtlebot3_laserscan
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_imu
+subscriber node         : turtlebot3_diff_drive
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_imu
+subscriber node         : turtlebot3_joint_state
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_imu
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_imu
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_imu
+subscriber node         : cartographer_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_imu
+subscriber node         : transform_listener_impl_5c55ee4503b0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_imu
+subscriber node         : cartographer_occupancy_grid_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_imu
+subscriber node         : rviz2
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_imu
+subscriber node         : transform_listener_impl_6320c5ab91f0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_laserscan
+subscriber node         : gazebo
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_laserscan
+subscriber node         : turtlebot3_imu
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_laserscan
+subscriber node         : turtlebot3_laserscan
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_laserscan
+subscriber node         : turtlebot3_diff_drive
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_laserscan
+subscriber node         : turtlebot3_joint_state
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_laserscan
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_laserscan
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_laserscan
+subscriber node         : cartographer_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_laserscan
+subscriber node         : transform_listener_impl_5c55ee4503b0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_laserscan
+subscriber node         : cartographer_occupancy_grid_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_laserscan
+subscriber node         : rviz2
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_laserscan
+subscriber node         : transform_listener_impl_6320c5ab91f0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_diff_drive
+subscriber node         : gazebo
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_diff_drive
+subscriber node         : turtlebot3_imu
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_diff_drive
+subscriber node         : turtlebot3_laserscan
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_diff_drive
+subscriber node         : turtlebot3_diff_drive
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_diff_drive
+subscriber node         : turtlebot3_joint_state
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_diff_drive
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_diff_drive
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_diff_drive
+subscriber node         : cartographer_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_diff_drive
+subscriber node         : transform_listener_impl_5c55ee4503b0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_diff_drive
+subscriber node         : cartographer_occupancy_grid_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_diff_drive
+subscriber node         : rviz2
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_diff_drive
+subscriber node         : transform_listener_impl_6320c5ab91f0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_joint_state
+subscriber node         : gazebo
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_joint_state
+subscriber node         : turtlebot3_imu
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_joint_state
+subscriber node         : turtlebot3_laserscan
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_joint_state
+subscriber node         : turtlebot3_diff_drive
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_joint_state
+subscriber node         : turtlebot3_joint_state
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_joint_state
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_joint_state
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_joint_state
+subscriber node         : cartographer_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_joint_state
+subscriber node         : transform_listener_impl_5c55ee4503b0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_joint_state
+subscriber node         : cartographer_occupancy_grid_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_joint_state
+subscriber node         : rviz2
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : turtlebot3_joint_state
+subscriber node         : transform_listener_impl_6320c5ab91f0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : robot_state_publisher
+subscriber node         : gazebo
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : robot_state_publisher
+subscriber node         : turtlebot3_imu
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : robot_state_publisher
+subscriber node         : turtlebot3_laserscan
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : robot_state_publisher
+subscriber node         : turtlebot3_diff_drive
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : robot_state_publisher
+subscriber node         : turtlebot3_joint_state
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : robot_state_publisher
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : robot_state_publisher
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : robot_state_publisher
+subscriber node         : cartographer_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : robot_state_publisher
+subscriber node         : transform_listener_impl_5c55ee4503b0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : robot_state_publisher
+subscriber node         : cartographer_occupancy_grid_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : robot_state_publisher
+subscriber node         : rviz2
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : robot_state_publisher
+subscriber node         : transform_listener_impl_6320c5ab91f0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : cartographer_node
+subscriber node         : gazebo
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : cartographer_node
+subscriber node         : turtlebot3_imu
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : cartographer_node
+subscriber node         : turtlebot3_laserscan
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : cartographer_node
+subscriber node         : turtlebot3_diff_drive
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : cartographer_node
+subscriber node         : turtlebot3_joint_state
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : cartographer_node
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : cartographer_node
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : cartographer_node
+subscriber node         : cartographer_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : cartographer_node
+subscriber node         : transform_listener_impl_5c55ee4503b0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : cartographer_node
+subscriber node         : cartographer_occupancy_grid_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : cartographer_node
+subscriber node         : rviz2
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : cartographer_node
+subscriber node         : transform_listener_impl_6320c5ab91f0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : cartographer_occupancy_grid_node
+subscriber node         : gazebo
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : cartographer_occupancy_grid_node
+subscriber node         : turtlebot3_imu
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : cartographer_occupancy_grid_node
+subscriber node         : turtlebot3_laserscan
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : cartographer_occupancy_grid_node
+subscriber node         : turtlebot3_diff_drive
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : cartographer_occupancy_grid_node
+subscriber node         : turtlebot3_joint_state
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : cartographer_occupancy_grid_node
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : cartographer_occupancy_grid_node
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : cartographer_occupancy_grid_node
+subscriber node         : cartographer_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : cartographer_occupancy_grid_node
+subscriber node         : transform_listener_impl_5c55ee4503b0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : cartographer_occupancy_grid_node
+subscriber node         : cartographer_occupancy_grid_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : cartographer_occupancy_grid_node
+subscriber node         : rviz2
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : cartographer_occupancy_grid_node
+subscriber node         : transform_listener_impl_6320c5ab91f0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz2
+subscriber node         : gazebo
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz2
+subscriber node         : turtlebot3_imu
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz2
+subscriber node         : turtlebot3_laserscan
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz2
+subscriber node         : turtlebot3_diff_drive
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz2
+subscriber node         : turtlebot3_joint_state
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz2
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz2
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz2
+subscriber node         : cartographer_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz2
+subscriber node         : transform_listener_impl_5c55ee4503b0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz2
+subscriber node         : cartographer_occupancy_grid_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz2
+subscriber node         : rviz2
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : rviz2
+subscriber node         : transform_listener_impl_6320c5ab91f0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_31_46a61b0ebb87496cbc89c22f07fe97fa
+subscriber node         : gazebo
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_31_46a61b0ebb87496cbc89c22f07fe97fa
+subscriber node         : turtlebot3_imu
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_31_46a61b0ebb87496cbc89c22f07fe97fa
+subscriber node         : turtlebot3_laserscan
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_31_46a61b0ebb87496cbc89c22f07fe97fa
+subscriber node         : turtlebot3_diff_drive
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_31_46a61b0ebb87496cbc89c22f07fe97fa
+subscriber node         : turtlebot3_joint_state
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_31_46a61b0ebb87496cbc89c22f07fe97fa
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_31_46a61b0ebb87496cbc89c22f07fe97fa
+subscriber node         : robot_state_publisher
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_31_46a61b0ebb87496cbc89c22f07fe97fa
+subscriber node         : cartographer_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_31_46a61b0ebb87496cbc89c22f07fe97fa
+subscriber node         : transform_listener_impl_5c55ee4503b0
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_31_46a61b0ebb87496cbc89c22f07fe97fa
+subscriber node         : cartographer_occupancy_grid_node
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_31_46a61b0ebb87496cbc89c22f07fe97fa
+subscriber node         : rviz2
+compatibility status    : OK
+topic [type]            : /parameter_events [rcl_interfaces/msg/ParameterEvent]
+publisher node          : _ros2cli_daemon_31_46a61b0ebb87496cbc89c22f07fe97fa
+subscriber node         : transform_listener_impl_6320c5ab91f0
+compatibility status    : OK
+topic [type]            : /scan [sensor_msgs/msg/LaserScan]
+publisher node          : turtlebot3_laserscan
+subscriber node         : cartographer_node
+compatibility status    : OK
+topic [type]            : /scan [sensor_msgs/msg/LaserScan]
+publisher node          : turtlebot3_laserscan
+subscriber node         : rviz2
+compatibility status    : OK
+topic [type]            : /scan_matched_points2 [sensor_msgs/msg/PointCloud2]
+publisher node          : cartographer_node
+subscriber node         : rviz2
+compatibility status    : OK
+topic [type]            : /submap_list [cartographer_ros_msgs/msg/SubmapList]
+publisher node          : cartographer_node
+subscriber node         : cartographer_occupancy_grid_node
+compatibility status    : OK
+topic [type]            : /tf [tf2_msgs/msg/TFMessage]
+publisher node          : turtlebot3_diff_drive
+subscriber node         : transform_listener_impl_5c55ee4503b0
+compatibility status    : OK
+topic [type]            : /tf [tf2_msgs/msg/TFMessage]
+publisher node          : turtlebot3_diff_drive
+subscriber node         : transform_listener_impl_6320c5ab91f0
+compatibility status    : OK
+topic [type]            : /tf [tf2_msgs/msg/TFMessage]
+publisher node          : robot_state_publisher
+subscriber node         : transform_listener_impl_5c55ee4503b0
+compatibility status    : OK
+topic [type]            : /tf [tf2_msgs/msg/TFMessage]
+publisher node          : robot_state_publisher
+subscriber node         : transform_listener_impl_6320c5ab91f0
+compatibility status    : OK
+topic [type]            : /tf [tf2_msgs/msg/TFMessage]
+publisher node          : cartographer_node
+subscriber node         : transform_listener_impl_5c55ee4503b0
+compatibility status    : OK
+topic [type]            : /tf [tf2_msgs/msg/TFMessage]
+publisher node          : cartographer_node
+subscriber node         : transform_listener_impl_6320c5ab91f0
+compatibility status    : OK
+topic [type]            : /tf_static [tf2_msgs/msg/TFMessage]
+publisher node          : robot_state_publisher
+subscriber node         : transform_listener_impl_5c55ee4503b0
+compatibility status    : OK
+topic [type]            : /tf_static [tf2_msgs/msg/TFMessage]
+publisher node          : robot_state_publisher
+subscriber node         : transform_listener_impl_6320c5ab91f0
+compatibility status    : OK
+
+   RMW MIDDLEWARE
+middleware name    : rmw_fastrtps_cpp
+
+   ROS 2 INFORMATION
+distribution name      : humble
+distribution type      : ros2
+distribution status    : active
+release platforms      : {'rhel': ['8'], 'ubuntu': ['jammy']}
+
+   TOPIC LIST
+topic               : /clicked_point
+publisher count     : 1
+subscriber count    : 0
+topic               : /clock
+publisher count     : 0
+subscriber count    : 11
+topic               : /cmd_vel
+publisher count     : 1
+subscriber count    : 1
+topic               : /constraint_list
+publisher count     : 1
+subscriber count    : 0
+topic               : /imu
+publisher count     : 0
+subscriber count    : 0
+topic               : /initialpose
+publisher count     : 1
+subscriber count    : 0
+topic               : /joint_states
+publisher count     : 0
+subscriber count    : 1
+topic               : /landmark_poses_list
+publisher count     : 1
+subscriber count    : 0
+topic               : /map
+publisher count     : 1
+subscriber count    : 1
+topic               : /map_updates
+publisher count     : 0
+subscriber count    : 1
+topic               : /move_base_simple/goal
+publisher count     : 1
+subscriber count    : 0
+topic               : /odom
+publisher count     : 0
+subscriber count    : 1
+topic               : /performance_metrics
+publisher count     : 0
+subscriber count    : 0
+topic               : /robot_description
+publisher count     : 1
+subscriber count    : 0
+topic               : /scan
+publisher count     : 0
+subscriber count    : 2
+topic               : /scan_matched_points2
+publisher count     : 1
+subscriber count    : 1
+topic               : /submap_list
+publisher count     : 1
+subscriber count    : 1
+topic               : /tf
+publisher count     : 2
+subscriber count    : 2
+topic               : /tf_static
+publisher count     : 1
+subscriber count    : 2
+topic               : /trajectory_node_list
+publisher count     : 1
+subscriber count    : 0
